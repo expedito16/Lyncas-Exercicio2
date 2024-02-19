@@ -1,0 +1,26 @@
+<section class="container">
+  <h1>Exercício 2</h1>
+  <div>
+    <label>Digite um valor múltiplo de 10 entre 100 e 1000:</label>
+    <input type="number" [(ngModel)]="userInput" [disabled]="array.length > 0">
+    <button class="button-send-value" (click)="sendValue()">Enviar Valor</button>
+  </div>
+
+  <div class="grid-div" *ngIf="array.length > 0">
+    <label>Selecione o somatório das posições ímpares ou pares:</label>
+    <select [(ngModel)]="option">
+      <option value=""></option>
+      <option value="ímpares">Ímpares</option>
+      <option value="pares">Pares</option>
+    </select>
+    <button (click)="calculateSum()">Calcular Soma</button>
+  </div>
+
+  <div *ngIf="sum !== undefined">
+    <p><strong>O resultado da soma é: {{ sum }}</strong></p>
+  </div>
+
+  <div class="grid-a" *ngIf="sum !== undefined">
+    <a href="">Recomecar</a>
+  </div>
+</section>

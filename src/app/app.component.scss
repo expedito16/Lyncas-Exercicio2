@@ -1,0 +1,76 @@
+.container {
+  background: #ffffff;
+  margin: 25px 0;
+  padding: 5px 10px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  font-size: 15px;
+  text-wrap: wrap;
+}
+
+input {
+  margin-left: 5px;
+  padding: 1px 3px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+button {
+  font-size: 12.5px;
+  background: green;
+  color: #ffffff;
+  border: none;
+  padding: 3px 6px;
+  border-radius: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+button:active {
+  background: #396742;
+}
+
+.grid-div {
+  text-align: left;
+  margin: 10px 0;
+}
+
+select {
+  margin-left: 5px;
+  padding: 1px 3px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.grid-a {
+  margin-top: 25px;
+  text-align: center;
+}
+
+a {
+  text-align: center;
+  background: #120a8f;
+  color: #ffffff;
+  padding: 2px 4px;
+  border: 1px solid #120a8f;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+a:active {
+  background: #0b0b64;
+  border: 1px solid #0b0b64;
+}
